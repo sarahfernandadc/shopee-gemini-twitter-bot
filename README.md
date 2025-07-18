@@ -84,6 +84,38 @@ Se você tiver uma sugestão para melhorar este projeto, por favor, faça um "fo
 
 Não se esqueça de dar uma estrela ao projeto! Obrigada novamente!
 
+## 🌟 Pontos a Melhorar e Próximos Passos
+
+Este projeto é um trabalho em andamento e há sempre espaço para melhorias. As contribuições são muito bem-vindas!
+
+É importante mencionar que este projeto também é uma **jornada de aprendizado** para mim. Estou aplicando e descobrindo novas técnicas ao longo do desenvolvimento. Portanto, se você tiver sugestões de abordagens mais eficientes, conhecer padrões de projeto melhores ou enxergar pontos onde o código pode ser aprimorado, sua contribuição será especialmente valiosa. O objetivo é aprender e construir em comunidade!
+
+Abaixo estão algumas ideias para o futuro do bot:
+
+**1. Interface Gráfica ou Web para Configuração Inicial**
+* **Problema:** Atualmente, a configuração das chaves de API e outros parâmetros exige que o usuário edite manualmente o arquivo `.env`. Isso pode ser uma barreira para pessoas sem afinidade com programação.
+* **Melhoria:** Desenvolver uma interface de usuário simples onde o usuário possa inserir e salvar suas chaves de API de forma segura e intuitiva, sem tocar em arquivos de configuração.
+
+**2. Customização de Templates de Tweet**
+* **Problema:** O formato dos tweets é fixo no código, o que limita a criatividade e a capacidade do usuário de adaptar o conteúdo à sua própria voz ou nicho.
+* **Melhoria:** Permitir que os usuários criem e salvem seus próprios modelos de tweet. Isso poderia ser feito através de um campo na interface gráfica, onde o usuário definiria o texto usando variáveis como `{produto}`, `{link_afiliado}`, `{preco}`, `{hashtags_ia}`.
+
+**3. Agendamento de Postagens**
+* **Ideia:** Em vez de rodar o bot manualmente, o usuário poderia configurar um agendamento para que as postagens sejam feitas automaticamente em horários específicos (ex: "postar 3 vezes ao dia").
+* **Implementação:** Integrar uma biblioteca de agendamento para gerenciar os posts de forma autônoma.
+
+**4. Filtros Avançados de Produtos**
+* **Ideia:** Dar mais controle ao usuário sobre os tipos de produtos que são selecionados, além da palavra-chave.
+* **Melhoria:** Adicionar opções na interface para filtrar produtos por faixa de preço, avaliação mínima (número de estrelas), ou popularidade (número de vendas).
+
+**5. Suporte a Múltiplas Plataformas**
+* **Ideia:** Expandir o alcance do bot para além do X (Twitter).
+* **Melhoria:** Refatorar o código de postagem para uma estrutura modular, permitindo adicionar facilmente outros "handlers" para postar em diferentes redes sociais, como Telegram, Facebook ou Pinterest.
+
+**6. Melhoria na Robustez e Logs**
+* **Ideia:** Tornar o bot mais resiliente a falhas (ex: API da Shopee temporariamente fora do ar).
+* **Melhoria:** Implementar um sistema de logs para registrar as atividades e os erros.
+
 ## 📜 Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
