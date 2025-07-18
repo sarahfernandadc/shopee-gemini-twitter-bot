@@ -70,5 +70,40 @@ python src/main.py
 
 O bot irá solicitar o **tema da busca** e a **quantidade de posts**. Após fornecer as informações, o processo de automação começará.
 
+## 🤝 Como Contribuir
+
+Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+
+Se você tiver uma sugestão para melhorar este projeto, por favor, faça um "fork" do repositório e crie um "pull request". Você também pode simplesmente abrir uma "issue" com a tag "melhoria".
+
+1.  Faça um Fork do projeto
+2.  Crie uma Branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3.  Faça o Commit de suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4.  Faça o Push para a Branch (`git push origin feature/AmazingFeature`)
+5.  Abra um Pull Request
+
+Não se esqueça de dar uma estrela ao projeto! Obrigada novamente!
+
+## 📜 Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## ✍️ Créditos e Citação
+
+Se você utilizar este projeto em seus trabalhos, tutoriais ou em qualquer outro lugar, por favor, me dê os devidos créditos. Ficarei muito feliz em saber que meu trabalho foi útil para você!
+
+Você pode me creditar da seguinte forma:
+
+* **Projeto Original:** Bot de IA para Afiliados Shopee
+* **Autor:** Sarah Fernanda David Cunha
+* **Link do Repositório:** [https://github.com/sarahfernandadc/shopee-gemini-twitter-bot]
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarahfernandadc/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarahfernandadc)
+
+
+---
+
 ## ⚠️ Aviso Legal
+
 Este projeto foi desenvolvido para fins educacionais. O uso de APIs está sujeito aos termos de serviço e limites de taxa de cada plataforma (Shopee, Google, X/Twitter). Use com responsabilidade.
